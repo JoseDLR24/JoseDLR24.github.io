@@ -1,0 +1,15 @@
+{
+  "name": "miniportfolio",
+  "version": "1.0.0",
+  "description": "Mini portfolio for assignment1",
+  "main": "index.js",
+  "repository": "https://github.com/JoseDLR24/MiniPortfolio.git",
+  "author": "Jose De Los Reyes <jddelosreyes23@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1"
+  }
+}
