@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <!-- CSS SECTION -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/Content/contact.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="/about.html">About me</a>
+                  <a class="nav-link active" href="/contact.html">Contact me</a>
+                  <a class="nav-link" href="/services.html">Services</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- main content of the page, h1 and message to the user -->
+    <main>
+        <article>
+            <div class="txt container">
+                <h1>Contact information</h1>
+                <h3>Need help or more information?</h3>
+                <p>Share your concerns  or fill out the form to be in contact with me</p>
+                <a href="mailto:jdlrosorio23@gmail.com"><i class="fa-solid fa-envelope"></i> jdlrosorio23@gmail.com</a>
+            </div>
+        </article>
+        <section>
+            <form>
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="fa-regular fa-user"></i> Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number"><i class="fa-solid fa-mobile-screen-button"></i> Phone Number</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email"><i class="fa-regular fa-envelope"></i> Email Address</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="6" required></textarea>
+                    <label for="message"><i class="fa-regular fa-message"></i> Message</label>
+                </div>
+                <div class="button">
+                    <button type="button" class="btn btn-outline-light">Submit</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+
+    <!-- side content of the page, contact form -->
+    
+
+    <!-- JAVASCRIPT SECTION -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/Scripts/app.js"></script>
+</body>
+</html>
